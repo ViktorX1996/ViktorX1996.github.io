@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.93a69ce6.css",
+    "main.js": "/static/js/main.e16cbdcc.js",
+    "static/media/air_quality.svg": "/static/media/air_quality.239a5bbdd38fdaccb1f8fab9fc5f85db.svg",
+    "static/media/five_day_logo.svg": "/static/media/five_day_logo.2fd12395860ffd706030b563669ceaa6.svg",
+    "static/media/feels_like.svg": "/static/media/feels_like.1d8114e21e75fd2ebaf96fd7ee09f9c2.svg",
+    "static/media/uv.svg": "/static/media/uv.e71d1abf033af7ca8c13aff273e1b868.svg",
+    "static/media/sun.svg": "/static/media/sun.c78ca78ec100b86fe7b7d38365c9df8c.svg",
+    "static/media/sunrise.svg": "/static/media/sunrise.2f2356d5d122f3c7a29ecbe121e9f7fd.svg",
+    "static/media/wind.svg": "/static/media/wind.6b49ae7e3bf147ab2c333a730dcad3be.svg",
+    "static/media/humidity.svg": "/static/media/humidity.f262ba29adec5063a46c4d6e479c1b2e.svg",
+    "index.html": "/index.html",
+    "static/media/clock.svg": "/static/media/clock.c748504983ef6f168e4b18cc59bd9b6d.svg",
+    "static/media/loop.svg": "/static/media/loop.db5b54dd1ece77e04c61eb751b92d5e3.svg",
+    "static/media/rainfall.svg": "/static/media/rainfall.4ab970c844089f429c96b7534a0713f6.svg",
+    "main.93a69ce6.css.map": "/static/css/main.93a69ce6.css.map",
+    "main.e16cbdcc.js.map": "/static/js/main.e16cbdcc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93a69ce6.css",
+    "static/js/main.e16cbdcc.js"
+  ]
+}
