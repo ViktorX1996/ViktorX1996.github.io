@@ -11,7 +11,9 @@
     />
     <script  src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
     <script  src="https://api.windy.com/assets/map-forecast/libBoot.js"></script>
-    <script>
+
+    <script src="/src/components/helpers/map/map.js"></script>
+    <!-- <script>
       const options = {
     // Required: API key
     key: 'wM8wB2E4cLGgHOhq2NoKwITjitTHqNDs', // REPLACE WITH YOUR KEY !!!
@@ -38,26 +40,25 @@ windyInit(options, windyAPI => {
         .setContent('Hello World')
         .openOn(map);
 });
-    </script>
+    </script> -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800&display=swap" rel="stylesheet">
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-
     <title>React App</title>
-    <style>
+    <!-- <style>
       #windy {
           width: 100%;
           height: 300px;
+          border: 1px solid green;
       }
-  </style>
+  </style> -->
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="windy"></div>
-    <script src="/src/components/helpers/map/map.js"></script>
+    <!-- <div id="windy"></div> -->
+    
     <div id="root"></div>
   </body>
 </html>
