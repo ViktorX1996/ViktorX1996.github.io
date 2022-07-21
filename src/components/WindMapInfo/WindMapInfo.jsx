@@ -18,7 +18,7 @@ function WindMapInfo(props) {
         });
     }, [])
     return (
-        <div id="windy" style={{ height: '300px', width: 'auto', border: '1px solid red' }}></div>
+        <div id="windy" style={{ height: '300px', width: 'auto' }}></div>
     );
 }
 
