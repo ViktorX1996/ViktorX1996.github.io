@@ -31,6 +31,9 @@ body{
 /* .app{
   height: 65vh;
 } */
+#logo{
+  display: none !important;
+}
 .other{
   height: 25vh;
 }
