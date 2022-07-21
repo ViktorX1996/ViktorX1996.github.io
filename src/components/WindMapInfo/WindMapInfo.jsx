@@ -4,7 +4,7 @@ import { WIND_API_KEY } from './../../api/api';
 function WindMapInfo(props) {
     useLayoutEffect(() => {
         const options = {
-            key: WIND_API_KEY,
+            key: 'wM8wB2E4cLGgHOhq2NoKwITjitTHqNDs',
             lat: 41.3,
             lon: 2.1,
             zoom: 10,

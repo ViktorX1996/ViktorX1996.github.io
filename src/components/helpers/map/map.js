@@ -1,4 +1,4 @@
-import { WIND_API_KEY } from './../../../api/api';
+// import { WIND_API_KEY } from './../../../api/api';
 
 //       const options = {
 //     // Required: API key
