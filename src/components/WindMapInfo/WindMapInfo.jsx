@@ -1,5 +1,5 @@
 import React, { useLayoutEffect } from 'react';
-import { WIND_API_KEY } from './../../api/api';
+// import { WIND_API_KEY } from './../../api/api';
 
 function WindMapInfo(props) {
     useLayoutEffect(() => {
@@ -12,7 +12,7 @@ function WindMapInfo(props) {
         window.windyInit(options, (windyAPI) => {
             const { map } = windyAPI;
             window.L.popup()
-                .setLatLng([41.3, 2.1])
+                .setLatLng([32.8156, 34.9892])
                 .setContent(':)')
                 .openOn(map);
         });
