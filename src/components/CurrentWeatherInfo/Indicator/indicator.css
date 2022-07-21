@@ -1,0 +1,15 @@
+.container_indicator{
+    /* outline: 1px solid green; */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container_indicator div{
+    padding-top: 10px;
+}
+.indicator_img {
+    height: 50px;
+    width: 50px;
+}

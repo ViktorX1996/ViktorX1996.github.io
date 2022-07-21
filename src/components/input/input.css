@@ -1,0 +1,31 @@
+
+input {
+    outline: none;
+}
+.search img {
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 6px;
+}
+.search input {
+    background-color: var(--search-bg);
+}
+input[type="search"] {
+    background-color: var(--grey-1);
+    color: var(--text-white);
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    height: 30px;
+    width: 85vw;
+    padding-left: 35px;
+}
+input[type="search"]::placeholder {
+    color: var(--grey-2-text);
+}
+.input__main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
