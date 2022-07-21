@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.dc3d10ae.css",
-    "main.js": "/static/js/main.ec4208f0.js",
+    "main.js": "/static/js/main.a52359f5.js",
     "static/media/air_quality.svg": "/static/media/air_quality.239a5bbdd38fdaccb1f8fab9fc5f85db.svg",
     "static/media/five_day_logo.svg": "/static/media/five_day_logo.2fd12395860ffd706030b563669ceaa6.svg",
     "static/media/feels_like.svg": "/static/media/feels_like.1d8114e21e75fd2ebaf96fd7ee09f9c2.svg",
@@ -15,10 +15,10 @@
     "static/media/loop.svg": "/static/media/loop.db5b54dd1ece77e04c61eb751b92d5e3.svg",
     "static/media/rainfall.svg": "/static/media/rainfall.4ab970c844089f429c96b7534a0713f6.svg",
     "main.dc3d10ae.css.map": "/static/css/main.dc3d10ae.css.map",
-    "main.ec4208f0.js.map": "/static/js/main.ec4208f0.js.map"
+    "main.a52359f5.js.map": "/static/js/main.a52359f5.js.map"
   },
   "entrypoints": [
     "static/css/main.dc3d10ae.css",
-    "static/js/main.ec4208f0.js"
+    "static/js/main.a52359f5.js"
   ]
 }
