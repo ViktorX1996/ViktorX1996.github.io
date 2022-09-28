@@ -17,6 +17,15 @@
   --font-weight-regular: 400;
   --font-weight-medium: 500;
   --font-weight-bold: 700;
+  --compass-shadow: 0 0 10px black;
+
+  /* air quality colors */
+  --very-good: #37ac56;
+  --good: #9bd444;
+  --moderate: #f1d309;
+  --bad: #fb0;
+  --very-bad: #ff8c00;
+  --dangerous: #ed0e05;
 }
 
 /* *{
@@ -26,14 +35,13 @@ body{
   font-family: "Roboto Flex";
   color: var(--text-white);
   background-color: rgba(18, 25, 35, 1);
-  height: 200vh;
+  height: auto;
+  padding-bottom: 20px;
 }
 /* .app{
   height: 65vh;
 } */
-#logo{
-  display: none !important;
-}
+
 .other{
   height: 25vh;
 }
@@ -55,4 +63,38 @@ body{
 .celsius::after{
   content: "°";
   position: absolute;
+}
+
+#logo{
+  display: none !important;
+  /* opacity: 0.2; */
+}
+#windy{
+  border-radius: 10px;
+}
+         
+.btn-grad {
+  background-image: linear-gradient(to right, #7b4397 0%, #dc2430  51%, #7b4397  100%);
+  margin: 10px;
+  padding: 15px 25px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px rgb(90, 90, 90);
+  border-radius: 10px;
+  display: block;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+  padding: 20px 30px;
 }

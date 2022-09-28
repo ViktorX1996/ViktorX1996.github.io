@@ -9,56 +9,24 @@
       name="description"
       content="Web site created using create-react-app"
     />
-    <script  src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
-    <script  src="https://api.windy.com/assets/map-forecast/libBoot.js"></script>
+    <!-- <script  type="text/javascript"  charset="utf-8">  
+      (function(w,d,t,f){  w[f]=w[f]||function(c,k,n){s=w[f],k=s['k']=(s['k']||(k?('&k='+k):''));s['c']=  
+      c=(c  instanceof  Array)?c:[c];s['n']=n=n||0;L=d.createElement(t),e=d.getElementsByTagName(t)[0];  
+      L.async=1;L.src='//feed.aqicn.org/feed/'+(c[n].city)+'/'+(c[n].lang||'')+'/feed.v1.js?n='+n+k;  
+      e.parentNode.insertBefore(L,e);  };  })(  window,document,'script','_aqiFeed'  );    
+  </script> -->
+    <script defer src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script  defer src="https://api.windy.com/assets/map-forecast/libBoot.js"></script>
 
-    <script src="/src/components/helpers/map/map.js"></script>
-    <!-- <script>
-      const options = {
-    // Required: API key
-    key: 'wM8wB2E4cLGgHOhq2NoKwITjitTHqNDs', // REPLACE WITH YOUR KEY !!!
-
-    // Put additional console output
-    verbose: true,
-
-    // Optional: Initial state of the map
-    lat: 50.4,
-    lon: 14.3,
-    zoom: 5,
-};
-
-// Initialize Windy API
-windyInit(options, windyAPI => {
-    // windyAPI is ready, and contain 'map', 'store',
-    // 'picker' and other usefull stuff
-
-    const { map } = windyAPI;
-    // .map is instance of Leaflet map
-
-    L.popup()
-        .setLatLng([50.4, 14.3])
-        .setContent('Hello World')
-        .openOn(map);
-});
-    </script> -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800&display=swap" rel="stylesheet">
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <title>React App</title>
-    <!-- <style>
-      #windy {
-          width: 100%;
-          height: 300px;
-          border: 1px solid green;
-      }
-  </style> -->
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" >
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" >
+    <title>Weather App</title>
   </head>
   <body>
-    <!-- <div id="windy"></div> -->
-    
     <div id="root"></div>
   </body>
 </html>
