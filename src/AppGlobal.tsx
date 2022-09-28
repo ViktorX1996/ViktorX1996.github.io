@@ -21,16 +21,13 @@ const AppGlobal:React.FC = () => {
         }
     }, []); //eslint-disable-line
     useEffect(() => {
-        console.log(params, 'params');
+        // console.log(params, 'params');
         if(params){
-            console.log(params, 'params');
-            
+            // console.log(params, 'params');
             dispatch(setLsCity(''));
         }
       }, []); //eslint-disable-line
-    useEffect(() => {
-        console.log(lsCityRedux, "- city" );
-    }, [lsCityRedux]); 
+
 
 
   return (

@@ -13,7 +13,7 @@ export type TColors = {
   no2?: string | null;
 };
 export type TData = {
-  aqi?: number | null;
+  aqi?: number | null | undefined;
   pm10?: number | null;
   pm25?: number | null;
   ozone?: number | null;

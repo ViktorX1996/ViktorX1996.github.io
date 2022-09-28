@@ -41,21 +41,21 @@ export const openWeatherApi = {
     getWeather: async (city:string) => {
         weatherUrl.searchParams.set('q', city);
         const response = await instance.get<IAxiosDataGetWeather>(weatherUrl.href);
-        console.log(response.data);
+        // console.log(response.data);
         return response.data
     },
     getForecast: async (city:string, cnt:number) => {
         forecastUrl.searchParams.set('q', city);
         forecastUrl.searchParams.set('cnt', String(cnt));
         const response = await instance.get<IAxiosGetForecastByCity>(forecastUrl.href);
-        console.log(response.data)
+        // console.log(response.data)
         return response.data
     },
     getUvi: async (lat:number, lng:number) => {
         uviUrl.searchParams.set('lat', String(lat));
         uviUrl.searchParams.set('lng', String(lng));
         const response = await instance.get<IAxiosDataGetUvi>(uviUrl.href, {headers: headerUvi});
-        console.log(response.data);
+        // console.log(response.data);
         return response.data
     },
 }
@@ -65,7 +65,7 @@ export const airQualityApi = {
         const airUrl = new URL(`${AIR_URL}${city}/`);
         airUrl.searchParams.set('token', AIR_TOKEN);
         const response = await instance.get<TAxiosDataAQ>(airUrl.href);
-        console.log(response.data, '============================')
+        // console.log(response.data, '============================')
         return response.data;
     }
 }

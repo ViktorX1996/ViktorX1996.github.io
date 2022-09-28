@@ -13,19 +13,13 @@ const Welcome: React.FC = () => {
       setInputValue(array[Math.floor(Math.random() * array.length)])
     );
   }
-  // const city = localStorage.getItem("city");
-  // useEffect(() => {
-  //     if(city) {
-  //         dispatch(setInputValue(city));
-  //     }
-  // } ,[]) //eslint-disable-line
   return (
     <>
       <Input />
       <div>
       <button 
       className="btn-grad"
-        onClick={() => console.log(getRandomCityFromArray(cities))}
+        onClick={() => getRandomCityFromArray(cities)}
       >
         random city
       </button>
